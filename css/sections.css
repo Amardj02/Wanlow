@@ -1,0 +1,60 @@
+/* sections.css */
+.background-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Keeps the two images side by side */
+    grid-gap: 0; /* No gap between images */
+    position: absolute;
+    top: 105px;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    background: transparent radial-gradient(closest-side at 50% 50%, #000000 0%, #54545400 100%) no-repeat padding-box;
+    background-image: url('../assets/Background1.webp'), url('../assets/Background2.webp');
+    background-size: 50% 100%; /* Keep the split at 50/50 */
+    background-position: left center, right center; /* Position them to the left and right */
+    background-repeat: no-repeat; /* Prevent background repeat */
+}
+/* New Image Section 1 */
+.image1 {
+    position: absolute;
+    top:1115px; /* Position below "How It Works" section */
+    left: 126px;
+    width: 403px;
+    height: 526px;
+    background: transparent url('../assets/Group839.webp') no-repeat 0% 0%;
+    opacity: 1;
+}
+
+/* New Image Section 2 */
+.image2 {
+    position: absolute;
+    top: 1080px; /* Position below "How It Works" section */
+    left: 720px;
+    width: 403px;
+    height: 563px;
+    background: transparent url('../assets/Group838.webp') no-repeat 0% 0%;
+    opacity: 1;
+}
+
+/* New Image Section 3 */
+.image3 {
+    position: absolute;
+    top: 1120px; /* Position below "How It Works" section */
+    left: 1314px;
+    width: 403px;
+    height: 523px;
+    background: transparent url('../assets/Group840.webp') no-repeat 0% 0%;
+    opacity: 1;
+}
+
+/* New SVG Section 4 */
+.image4 {
+    position: absolute;
+    top: 965px; /* Adjust the vertical position */
+    left: -285.79443359375px; /* Adjust the horizontal position */
+    width: 2220px; /* Set the width */
+    height: 327px; /* Set the height */
+    background: transparent url('../assets/Group842.svg') 0% 0% no-repeat padding-box; /* SVG background */
+    opacity: 1;
+    z-index: -1;
+}

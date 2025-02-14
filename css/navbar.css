@@ -1,0 +1,72 @@
+/* navbar.css */
+.topnav {
+    background-color: #eae8e7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px 5%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.left-items {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    gap: 20px;
+}
+
+.topnav a {
+    color: #483729;
+    padding: 16px 8px;
+    text-decoration: none;
+    align-items: center;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Noto Sans Display', sans-serif;
+    text-align: left;
+    font-weight: 500;
+}
+
+.topnav a:hover {
+    color: #7EC6BC;
+}
+
+.topnav .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topnav .logo img {
+    max-width: 130px;
+    height: auto;
+}
+
+.right-items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.right-items a {
+    margin-right: 20px;
+}
+
+.right-items a:nth-child(2) {
+    margin-right: 1px;
+}
+
+.right-items a:last-child {
+    margin-right: 0;
+}
+
+.topnav a.split:hover img {
+    filter: invert(42%) sepia(76%) saturate(4195%) hue-rotate(141deg) brightness(104%) contrast(101%);
+}
+
+.topnav a.split img {
+    max-width: 100%;
+    height: auto;
+}
