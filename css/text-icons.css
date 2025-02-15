@@ -39,23 +39,256 @@
     width: 100%;
     height: 100%;
     background: url('../assets/GetStarted.webp') no-repeat center center;
-    background-size: contain;
     transition: filter 0.3s ease;
+    border: none;
+    outline: none;
 }
 
 .icon:hover {
     filter: brightness(80%) contrast(130%);
 }
+.getbox-container {
+    position: absolute;
+    top: 2350px;
+    left: 350px;
+    width: 192px;
+    height: 50px;
+    transform: translateX(-50%);
+}
+
+.cta-button {
+    width: 100%;
+    height: 100%;
+    background: url('../assets/GetFirstBox.webp') no-repeat center center;
+    background-size: contain;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: filter 0.3s ease;
+}
 .how-it-works {
     position: absolute;
-    top: 110vh;
+    top: 1000px;
     left: 50%;
     transform: translateX(-50%);
     font: 50px 'Mouse Memoirs', sans-serif;
     color: #483729;
     text-transform: capitalize;
     text-align: center;
+}
+.number1,.number2,.number3 {
+    position: absolute;
+    transform: matrix(1, -0.09, 0.09, 1, 0, 0);
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 102px;
+    line-height: 116px;
+    letter-spacing: 0px;
+    color: #7EC6BC;
+    text-transform: uppercase;
+    text-align: center;
     opacity: 1;
-    z-index: 1;
-    transition: top 0.3s ease;
+    text-shadow:  
+    -1px -1px 0px #ffffff, 
+     1px -1px 0px #ffffff, 
+    -1px  1px 0px #ffffff, 
+     1px  1px 0px #ffffff;
+}
+.number1{
+    top: 280px;
+    left: 190px;
+    width: 38px;
+    height: 118px;
+}
+.number2{
+    top: 305px;
+    left: 190px;
+    width: 38px;
+    height: 118px;
+}
+.number3{
+    top: 270px;
+    left: 190px;
+    width: 38px;
+    height: 118px;
+}
+.heading1,.heading2,.heading3 {
+    position: absolute;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 25px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #483729;
+    text-transform: capitalize;
+    text-align: center;
+    opacity: 1;
+    width: auto;
+}
+.heading1{
+    top: 390px;
+    left: 140px;
+    height: 28px;
+}
+.heading2{
+    top: 425px;
+    left: 140px;
+    height: 28px;
+}
+.heading3{
+    top: 390px;
+    left: 100px;
+    height: 28px;
+}
+.text1 {
+    position: absolute;
+    top: 430px;
+    left: 75px;
+    width: 280px;
+    height: 80px;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #483729;
+    text-align: center;
+    opacity: 1;
+}
+.text2 {
+    position: absolute;
+    top: 470px;
+    left: 110px;
+    width: 228px;
+    height: 24px;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #483729;
+    text-align: center;
+    opacity: 1;
+}
+.text3 {
+    position: absolute;
+    top: 430px;
+    left: 70px;
+    width: 290px;
+    height: 80px;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #483729;
+    text-align: center;
+    opacity: 1;
+}
+/* Welcome Box Text */
+.welcome-box {
+    position: absolute;
+    top: 1800px;
+    left: 250px;
+    width: 287px;
+    height: 69px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 60px;
+    line-height: 69px;
+    letter-spacing: 0px;
+    color: #483729;
+    text-align: left;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.stars {
+    position: absolute;
+    top: 1810px;
+    left: 550px;
+    width: 48px;
+    height: 52px;
+    background: transparent url('../assets/Group52.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.text-box2{
+    position: absolute;
+    top: 1900px;
+    left: 250px;
+    width: 480px;
+    height: 80px;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #483729;
+    text-align: left;
+    opacity: 1;
+}
+/* Star Icon - Common Style */
+.star-icon {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: transparent url('../assets/Path769.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+/* Position for Star 1 */
+.star1 {
+    top: 2020px;
+    left: 250px;
+}
+
+/* Position for Star 2 */
+.star2 {
+    top: 2100px;
+    left: 250px;
+}
+
+/* Position for Star 3 */
+.star3 {
+    top: 2180px;
+    left: 250px;
+}
+
+/* Position for Star 4 */
+.star4 {
+    top: 2260px;
+    left: 250px;
+}
+/* Common styles for all text elements */
+.text-star1, .text-star2, .text-star3, .text-star4 {
+    position: absolute;
+    font: normal normal normal 18px/28px 'Noto Sans Display', sans-serif;
+    letter-spacing: 0px;
+    color: #483729;
+    text-align: left;
+    opacity: 1;
+}
+
+/* Text 1 */
+.text-star1 {
+    top: 2020px;
+    left: 300px;
+    width: 333px;
+    height: 24px;
+}
+
+/* Text 2 */
+.text-star2 {
+    top: 2080px;
+    left: 300px;
+    width: 441px;
+    height: 52px;
+}
+
+/* Text 3 */
+.text-star3 {
+    top: 2170px;
+    left: 300px;
+    width: 440px;
+    height: 52px;
+}
+
+/* Text 4 */
+.text-star4 {
+    top: 2260px;
+    left: 300px;
+    width: 440px;
+    height: 24px;
 }

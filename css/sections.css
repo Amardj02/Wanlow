@@ -48,7 +48,7 @@
 }
 
 /* New SVG Section 4 */
-.image4 {
+.path1 {
     position: absolute;
     top: 965px; /* Adjust the vertical position */
     left: -285.79443359375px; /* Adjust the horizontal position */
@@ -57,4 +57,24 @@
     background: transparent url('../assets/Group842.svg') 0% 0% no-repeat padding-box; /* SVG background */
     opacity: 1;
     z-index: -1;
+}
+.content-section2 {
+    position: absolute;
+    top: 2000px;
+    left: 0;  /* Ensure it starts from the left edge */
+    width: 1920px;  /* Full width of the viewport */
+    height: 1080px;  /* Full height of the viewport */
+    background: transparent url('../assets/Group844.svg') 0% 0% no-repeat padding-box;
+    background-size: cover;  /* Ensure image covers the full section */
+    opacity: 1;
+    z-index: -1;  /* Ensure it stays behind other elements */
+}
+.image4 {
+    position: absolute;
+    top: 1750px;
+    left: 1000px;
+    width: 684px;
+    height: 645px;
+    background: transparent url('../assets/MaskGroup4.webp') 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
