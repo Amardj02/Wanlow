@@ -1,9 +1,11 @@
 /* global.css */
-body {
+html, body {
     background-color: #eae8e7;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 /* Global font styles */
