@@ -97,3 +97,12 @@
     height: 100px;  /* Height for the section */
     text-align: center;
 }
+.content-section4 {
+    position: absolute;
+    top: 5200px;
+    left: 0px;
+    width: 3500px;
+    height: 520px;
+    background: transparent url('../assets/Path618.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
